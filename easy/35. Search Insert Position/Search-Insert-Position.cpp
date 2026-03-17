@@ -26,7 +26,7 @@
 26//made some optimizations
 27
 28//here l will return the insertion index
-29// here h will return the floor value index & ceil value index 
+29// here h will return the floor(largest ele in arr <=x) value index & ceil(smallest ele in arr >=x) value index 
 30// here h will also return the from where the higher elements started from the target ex:
 31//nums = [1,3,5,6], target = 4
 32//l = 2  (insert at index 2)
