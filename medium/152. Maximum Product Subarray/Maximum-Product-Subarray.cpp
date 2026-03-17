@@ -14,3 +14,8 @@
 14        return maxi;
 15    }
 16};
+// here i'm using prefix and suffix if i will just mul the next ele in the prefix i will get the max product , same goes for the suffix but this timw i'm going backwords cause:
+//Traverse the array from left to right (prefix) to build cumulative product.
+//Traverse the array from right to left (suffix) to catch subarrays ending at the back (helpful when max product is at the end or due to even negatives).
+//Reset the product to 1 whenever a zero is found, as it breaks the subarray continuity.
+//By comparing products in both directions at each step, we ensure we don’t miss any possible maximum.
