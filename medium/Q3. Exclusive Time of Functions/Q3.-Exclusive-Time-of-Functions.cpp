@@ -40,3 +40,12 @@
 40        
 41    }
 42};
+
+// another method to read log
+        // for(auto log : logs){
+        //     int f_col=log.find(":");
+        //     int s_col=log.find(":",f_col+1);
+        //     int id=stoi(log.substr(0,f_col));
+        //     string type=stoi(f_col+1,s_col-f_col-1);
+        //     int time = stoi(log.substr(s_col+1,));
+        // }
